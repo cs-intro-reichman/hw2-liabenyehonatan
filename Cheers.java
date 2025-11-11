@@ -11,9 +11,9 @@ public class Cheers {
                 for (int i = 0; i < nameLength; i++) {
                         System.out.print("Give me ");
                         if ("AEFHILMNORSX".indexOf(name.charAt(i)) != -1) {
-                                System.out.print("an ");
+                                System.out.print("an  ");
                         } else {
-                                System.out.print("a ");
+                                System.out.print("a  ");
                         }
                         System.out.println(name.charAt(i) + ": " + name.charAt(i) + "!");
                 }

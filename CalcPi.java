@@ -2,8 +2,7 @@
 public class CalcPi {
 	public static void main(String[] args) {
 		// Replace this comment with your code
-		// int numOfTerms = Integer.parseInt(args[0]);
-		int numOfTerms = 9;
+		int numOfTerms = Integer.parseInt(args[0]);
 		double pi = Math.PI;
 		int denominator = 3;
 		double sum = 1;
